@@ -5,9 +5,8 @@
      	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      	<title>FlorencePortfolio</title>
      	<style>
-		.header {
+			.header {
 				background-color: rgb(224, 183, 183);
-				color: white;
 				padding: 20px 40px;
 				display: flex;
 				justify-content: space-between;
@@ -15,7 +14,7 @@
 				width: 100%;
 				z-index: 1000;
 				box-shadow: 2px 4px 6px rgba(0,0,0,0.1);
-			}  
+			}
 			.header-container {
 				display: grid;
 				grid-template-columns: 5% 25% 60%;
@@ -177,20 +176,26 @@
 				display: grid;
 				background-color: white;
 				padding: 2%;
-				
 			}
 			.happy_client {
 				text-align: center;
 			}
+			.discuss {
+				display: flex;
+				grid-template-columns:repeat(45% 45%);
+				border: 20px;
+				margin: 10px;
+				padding-top: 10%;
+			}
 			.footer-container {
-				display: grid;
+				display: flex;
 				grid-template-columns: 5% 25% 60%;
 			}
 			footer {
 				background-color: black;
-				color: white; 
+				color: white;
 				padding: 20px 40px;
-				display:flex;
+				display:grid;
 			}
    	</style> 
 	</head> 
@@ -214,7 +219,6 @@
 		<br>
 		<br>
 		<!-- hero/home section -->
-		<!-- <section class="hero_home"> -->
    	<div class="gridcontainer">
 			<div><b><h1>Hello, I'm <br> Florence Joseph</h1></b>
         		<p><h5>I'm a freelance UI/UX Designer and developer based in Abuja, Nigeria.
@@ -349,14 +353,14 @@
 		<div class="blog2">
 			<div>
 				<div class="blog2_img">
-					<img src="image/img 2.avif" class="blog2_img">
+					<img src="image/img 2.avif">
 				</div>
 				<p>22 Oct. 2022/246 Comments</p>
 				<h5>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.
 				</h5>
 			</div>
 			<div>
-				<div class="blog2_img" class="blog2_img">
+				<div class="blog2_img">
 					<img src="image/img 3.avif">
 				</div>
 				<p>22 Oct. 2022/246 Comments</p>
@@ -365,7 +369,7 @@
 			</div>
 			<div>
 				<div class="blog2_img">
-					<img src="image/img 4.avif" class="blog2_img">
+					<img src="image/img 4.avif">
 				</div>
 				<p>22 Oct. 2022/246 Comments</p>
 				<h5>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.
@@ -373,7 +377,7 @@
 			</div>
 			<div>
 				<div class="blog2_img">
-					<img src="image/img 5.avif" class="blog2_img>
+					<img src="image/img 5.avif">
 				</div>
 				<p>22 Oct. 2022/246 Comments</p>
 				<h5>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.
@@ -431,10 +435,11 @@
 			<h4>There is name so sweet. Thats Jesus name, the son of god, who died on the cross.i have seen the Lords goodness, his merces and compassion, i have seen the Lords goodness, hallluyah praise the lord.</h4>
 			<p><b>Florence Joseph</b><br>Managing Director, Foldar stitches</p>
 		</div>
+		/* <discuss section> */
 		<div class=".discuss-container">
 			<div class="discuss">
 				<h2>Let's discuss your project</h2>
-				<p>There are many variations to passages f Lorem ipsum available, but the majority have suffered alte.</p>
+				<p>There are many variations to passages for Lorem ipsum available, but the majority have suffered alte.</p>
 				<div>
 					<div>
 						<img/>
@@ -448,7 +453,7 @@
 					</div>
 					<div>
 						<p>My Email:<br>
-						<h4><a href="#folushoce@gmail.com">folushoce@gmail.com</a></h4>
+						<h4>folushoce@gmail.com</h4>
 					</div>
 					<div>
 						<img/>
@@ -493,6 +498,6 @@
 						<a href="#Contact">Contact</a>
 				</div>
 			</div>	
-		</header>
+		</footer>
 	</body>
 </html>
