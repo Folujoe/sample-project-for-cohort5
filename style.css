@@ -1,0 +1,317 @@
+.header-container {
+  display: grid;
+  grid-template-columns: 5% 15% 80%;
+  text-align: center;
+  background-color: white;
+  color: black;
+  margin-left: 50px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 28px;
+  background-color: blueviolet;
+  color: black;
+  border: 2px solid #4a90e2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.input {
+  margin-left: 52%;
+}
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 100%;
+  gap: 4%;
+  border-width: 50px;
+  margin-left: 50px;
+}
+.hello {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5%;
+  margin: 10px;
+  padding: 10px 20px;
+  width: fit-content;
+  justify-self: center;
+}
+.my_hello {
+  display: flex;
+  grid-template-columns: 33% 33% 33%;
+  background-color: rgb(206, 178, 231);
+  color: black;
+  border-radius: 1%;
+  margin-top: 100px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+}
+.hero_img {
+  width: 300px;
+  height: auto;
+  margin-left: 24%;
+  box-shadow: 0px 0px 0px grey;
+}
+.gridcontainer-user {
+  grid-template-columns: 50% 50%;
+  display: flex;
+  background-color: white;
+  border-width: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.profession-div {
+	border-top: 10px;
+	margin-top: 100px;
+	padding-top: 10px;
+	padding-left: 50px;
+}
+.gridcontainer-user-1 {
+	border-top: 0px;
+	margin-top: opx;
+	padding-top: 0%;
+}
+.hi {
+  display: flex;
+  grid-template-columns: 35% 35%;
+  gap: 10%;
+}
+.hero_about_img {
+  width: 70%;
+  height:370px;
+  margin: 70px;
+  box-shadow: indigo;
+  
+}
+.social-img {
+	width: 300px;
+	height: 150px;
+	position: relative;
+	bottom: 130px;
+	left: 45px;
+}
+.gridcontainer-h3 {
+	display: flex;
+	grid-template-columns: 40% 40%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.process {
+	margin-right: 50px;
+  margin-left: 50px;
+  border: 2px solid blueviolet;
+  font-size: 14px;
+}
+body {
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+  padding: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to left, rgb(189, 189, 253), rgb(236, 242, 247));
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 5px;
+  padding: 5px;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.gridcontainer-h3a {
+  text-align: left;
+  margin-left: 50px;
+}
+.table,
+td {
+  border: 2px solid white;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-collapse: collapse;
+  border-spacing: 50px;
+}
+tr {
+  background-color: white;
+  text-align: left;
+  border: 3px solid white;
+  padding: 8px;
+}
+.port {
+  background-color: white;
+  margin-top: 50px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.port-img {
+  width: 90%;
+  height: 10%;
+  border-radius: 5%;
+
+}
+.portfolio {
+  text-align: center;
+  padding-top: 10%;
+  padding: 5%;
+}
+.case-img {
+  padding: 5px; 
+  margin: 3%;
+  border-radius: 5%;
+  margin: 10px;
+  padding: 10px 20px;
+  width: fit-content;
+  text-align: center;
+}
+.project,
+.work {
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+}
+.request {
+  text-align: center;
+  background-color: rgb(1, 1, 36);
+  color: white;
+}
+.blogger {
+	background-color: rgb(253, 252, 252);
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.blog {
+  text-align: center;
+}
+.blog-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1%;
+  padding: 0px;
+  text-size-adjust: 2px;
+}
+.blog2-img {
+  border-radius: 5%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin: 1px;
+  padding: 1px 0px;
+  width: 200px;
+  height: 150px;
+  text-align: left;
+  background-color: whitesmoke;
+}
+.ability-container {
+  display: flex;
+  grid-template-columns: 50% 50%;
+  gap: 1%;
+  margin-left: 50px;
+  margin-right: 40px;
+  padding-top: 10%;
+  border: 10px;
+}
+.ability-container-1 {
+  padding-top: 5px;
+  align-items: center;
+  padding-left: 5px;
+}
+.ability-container h2 {
+  padding: 20px;
+  text-align: left;
+}
+.ability {
+  display: grid;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 2%;
+  border-left: 10px;
+  border-right: 10px;
+}
+.ability-1 {
+  margin-bottom: 1px;
+  background-color: white;
+}
+.ability-2 {
+  margin-bottom: 1px;
+  background-color: white;
+}
+.ability-3 {
+  margin-bottom: 1px;
+  background-color: white;
+}
+.happy-client {
+  text-align: center;
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 60px;
+}
+.some-img {
+	width: 900px;
+	height: 120px;
+}
+.discuss-container {
+  background-color: white;
+  position: relative;
+  top: 50px;
+  border-radius: 2%;
+  margin-left: 50px;
+  margin-right: 60px;
+}
+.discuss {
+  background-color: solid white;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10px;
+  margin: 10px;
+  padding-top: 10%;
+}
+.discuss-img {
+  background-color: white;
+  color: blueviolet;
+  width: 100px;
+  height: 150px;
+  justify-content: center;
+}
+.icon-img {
+	float: left;
+	width: 60px
+}
+.button {
+  padding: 5px;
+  border: 2px blueviolet;
+  background-color: blueviolet;
+  color: white;
+  margin: 3%;
+  border-radius: 5%;
+  margin: 10px;
+  padding: 10px 20px;
+  width: fit-content;
+  text-align: center;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 4% 4% 75% 15%;
+  background-color: black;
+  color: white;
+  padding: 100px 40px;
+  width: 90%;;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding:40px 40px;
+}
